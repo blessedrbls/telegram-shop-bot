@@ -15,3 +15,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Screen recordings (the demo video is uploaded through GitHub's web editor)
+*.mov

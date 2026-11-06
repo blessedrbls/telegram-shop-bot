@@ -35,13 +35,48 @@ Built with **Python 3**, **aiogram 3** and **SQLite**. The bot is bilingual (�
 
 ## 📸 Screenshots
 
-| Main menu | Catalog | Product card |
-|:---:|:---:|:---:|
-| ![Main menu](https://placehold.co/260x520/png?text=Main+menu) | ![Catalog](https://placehold.co/260x520/png?text=Catalog) | ![Product card](https://placehold.co/260x520/png?text=Product+card) |
-
-| Cart | Checkout | Admin panel |
-|:---:|:---:|:---:|
-| ![Cart](https://placehold.co/260x520/png?text=Cart) | ![Checkout](https://placehold.co/260x520/png?text=Checkout) | ![Admin panel](https://placehold.co/260x520/png?text=Admin+panel) |
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/0-language.png" alt="Language selection" width="400"><br>
+      <b>Language selection</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/1-menu.png" alt="Main menu" width="400"><br>
+      <b>Welcome message and main menu</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/2-catalog.png" alt="Catalog" width="400"><br>
+      <b>Catalog categories</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/3-product.png" alt="Product card" width="400"><br>
+      <b>Product card with quantity selector</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/4-cart.png" alt="Cart" width="400"><br>
+      <b>Cart with total and item controls</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/5-checkout.png" alt="Checkout" width="400"><br>
+      <b>Checkout: name, phone, address and comment</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/6-admin-order.png" alt="New order notification" width="400"><br>
+      <b>Admin: new order notification with status buttons</b>
+    </td>
+    <td align="center">
+      <img src="screenshots/7-admin-panel.png" alt="Admin panel" width="400"><br>
+      <b>Admin panel</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -54,7 +89,7 @@ Built with **Python 3**, **aiogram 3** and **SQLite**. The bot is bilingual (�
 5. When the admin changes the status, the **customer gets a message** in their own language, and the status is updated in **📦 My orders**.
 6. The admin uses **/admin** to manage products, view orders and statistics, and send broadcasts.
 
-On the first launch, the database is created automatically and filled with a **demo catalog**: 3 categories (Coffee, Tea, Desserts) with 3 products each.
+On the first launch, the database is created automatically and filled with a **demo catalog**: 3 categories (Coffee, Tea, Desserts) with 3 products each. Demo product photos are from [Unsplash](https://unsplash.com) and are used under the free [Unsplash License](https://unsplash.com/license).
 
 ---
 
@@ -80,6 +115,7 @@ telegram-shop-bot/
 ├── handlers/
 │   ├── user.py         # Customer side: language, catalog, cart, checkout, orders
 │   └── admin.py        # Admin side: orders, statuses, products, stats, broadcast
+├── screenshots/        # Images for this README
 ├── requirements.txt
 ├── .env.example        # Template for your .env
 └── .gitignore
