@@ -18,3 +18,4 @@ __pycache__/
 
 # Screen recordings (the demo video is uploaded through GitHub's web editor)
 *.mov
+*.mp4
