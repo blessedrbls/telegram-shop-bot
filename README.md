@@ -80,7 +80,11 @@ Built with **Python 3**, **aiogram 3** and **SQLite**. The bot is bilingual (�
 
 ---
 
-## ⚙️ How it works
+https://github.com/user-attachments/assets/6437f6e0-f7e6-43db-8676-87b3235f7a66
+
+
+
+
 
 1. **/start** → the customer picks a language → the main menu appears: 🛍 Catalog, 🛒 Cart, 📦 My orders, 🌐 Language.
 2. In the **catalog**, the customer opens a category, then a product card, picks the quantity with ➕/➖ and taps **Add to cart**.
